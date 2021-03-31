@@ -3,21 +3,24 @@ let score = 0;
 
 let name = prompt('Hello there, What\'s your name?');
 alert('Nice to meet you ' + name);
-
-let favouriteMeal = prompt('Do you think Mansaf is my favourite meal?')
-    
-if (favouriteMeal.toLowerCase() == 'yes' || favouriteMeal.toLowerCase() == 'y' ){
-//   console.log('No, Makloubeh is my favourite meal!');
-    alert('No, Makloubeh is my favourite meal!')
-}else if (favouriteMeal.toLowerCase() == 'no' || favouriteMeal.toLowerCase() == 'n'){
-//    console.log('Correct, my favourite meal is Makloubeh');
-    alert('Correct, my favourite meal is Makloubeh')
-    score++;
-}else{
-//    console.log('please type yes or no');
-    alert("please type yes or no")
+// question 1
+function favouriteMeal(){
+      let favouriteMeal = prompt('Do you think Mansaf is my favourite meal?')
+      
+      if (favouriteMeal.toLowerCase() == 'yes' || favouriteMeal.toLowerCase() == 'y' ){
+      //   console.log('No, Makloubeh is my favourite meal!');
+      alert('No, Makloubeh is my favourite meal!')
+      }else if (favouriteMeal.toLowerCase() == 'no' || favouriteMeal.toLowerCase() == 'n'){
+      //    console.log('Correct, my favourite meal is Makloubeh');
+      alert('Correct, my favourite meal is Makloubeh')
+      score++;
+      }else{
+      //    console.log('please type yes or no');
+      alert("please type yes or no")
+   } return score;
 }
-
+ favouriteMeal();
+  
 let favouriteSport = prompt('Do you think my favourite sport is Football?')
     
 if (favouriteSport.toLowerCase() == 'yes' || favouriteSport.toLowerCase() == 'y'){
