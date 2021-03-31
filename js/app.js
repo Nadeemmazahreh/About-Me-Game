@@ -59,7 +59,7 @@ function favouriteMeal(){
  ifTravelToMalta();
 
 
-
+// question 4
 function ifSibling(){
       let sister = prompt('Do you think I have a sister?')
 
@@ -78,20 +78,25 @@ function ifSibling(){
 ifSibling();
 
 
+// quesyion 5
+function ifVideoGames(){
+      let videoGames = prompt('Do you think I play video games?')
 
-let videoGames = prompt('Do you think I play video games?')
-
-if (videoGames.toLowerCase() == 'yes' || videoGames.toLowerCase() == 'y'){
-//    console.log('No unfortunalty, I don\'t have time');
-      alert('No unfortunalty, I don\'t have time')
-}else if (videoGames.toLowerCase() == 'no' || videoGames.toLowerCase() == 'n'){
-//    console.log('Correct, I used to play DOTA but now I don\'t have time');
-      alert("Correct, I used to play DOTA but now I don\'t have time")
-      score++;
-}else{
-//    console.log('please type yes or no');
-      alert('please type yes or no')
+      if (videoGames.toLowerCase() == 'yes' || videoGames.toLowerCase() == 'y'){
+      //    console.log('No unfortunalty, I don\'t have time');
+            alert('No unfortunalty, I don\'t have time')
+      }else if (videoGames.toLowerCase() == 'no' || videoGames.toLowerCase() == 'n'){
+      //    console.log('Correct, I used to play DOTA but now I don\'t have time');
+            alert("Correct, I used to play DOTA but now I don\'t have time")
+            score++;
+      }else{
+      //    console.log('please type yes or no');
+            alert('please type yes or no')
+      } return score;
 }
+ifVideoGames();
+
+
 
 
 for (let i = 0; i < 4; i++){
