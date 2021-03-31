@@ -40,7 +40,7 @@ function favouriteMeal(){
  }
  favouriteSport();
 
-
+// question 3
  function ifTravelToMalta(){
       let travelledToMalta = prompt('Do you think I have travelled to Malta?')
 
@@ -59,20 +59,25 @@ function favouriteMeal(){
  ifTravelToMalta();
 
 
- 
-let sister = prompt('Do you think I have a sister?')
 
-if (sister.toLowerCase() == 'yes' || sister.toLowerCase() == 'y'){
-//    console.log('No, I have one brother.');
-      alert('No, I have one brother.')
-}else if (sister.toLowerCase() == 'no' || sister.toLowerCase() == 'n'){
-//    console.log('Correct!, I have one younger brother.');
-      alert('Correct!, I have one younger brother.')
-      score++;
-}else{
-//    console.log('please type yes or no');
-      alert('please type yes or no')
+function ifSibling(){
+      let sister = prompt('Do you think I have a sister?')
+
+      if (sister.toLowerCase() == 'yes' || sister.toLowerCase() == 'y'){
+      //    console.log('No, I have one brother.');
+            alert('No, I have one brother.')
+      }else if (sister.toLowerCase() == 'no' || sister.toLowerCase() == 'n'){
+      //    console.log('Correct!, I have one younger brother.');
+            alert('Correct!, I have one younger brother.')
+            score++;
+      }else{
+      //    console.log('please type yes or no');
+            alert('please type yes or no')
+      } return score;
 }
+ifSibling();
+
+
 
 let videoGames = prompt('Do you think I play video games?')
 
