@@ -122,19 +122,24 @@ numberOfCountryVisited();
 
 
 
-
-let JordanianDishsIHate = ['maftool', 'foul', 'shushbarak']  
-for (let i = 0; i < 6; i++){
-      let dishAnswer = prompt('What is an Arabian dish I really hate?')
-      dishAnswer = dishAnswer.toLowerCase()
-      if (dishAnswer == JordanianDishsIHate[0] || dishAnswer == JordanianDishsIHate[1] || dishAnswer == JordanianDishsIHate[2]){
-            alert('Correct!!!!')
-            score++;
-            break;
-      }else{
-            alert('Try again');}     
+//question 7
+function hatedArabianDish(){
+      let JordanianDishsIHate = ['maftool', 'foul', 'shushbarak']  
+      for (let i = 0; i < 6; i++){
+            let dishAnswer = prompt('What is an Arabian dish I really hate?')
+            dishAnswer = dishAnswer.toLowerCase()
+            if (dishAnswer == JordanianDishsIHate[0] || dishAnswer == JordanianDishsIHate[1] || dishAnswer == JordanianDishsIHate[2]){
+                  alert('Correct!!!!')
+                  score++;
+                  break;
+            }else{
+                  alert('Try again');}     
+      }
+      alert('Dishes I dont like are Maftool, Fool and Shushbarak') 
+      return score; 
 }
-alert('Dishes I dont like are Maftool, Fool and Shushbarak')  
+hatedArabianDish();
+
 
 alert(`You got ${score} out of 7`);
 alert('This was fun ' + name + ' ,See you next time! Goodbye!');
