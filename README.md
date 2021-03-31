@@ -5,6 +5,8 @@
 This project is a guessing game that utilizes HTML, CSS, & JavaScript. Nadeem Mazahreh is the creator of the project and there is no collaboration with other people. The code shouldnt be copied anywhere else (please read the LICENSE file for more information).
 
 ### Author: Nadeem Mazahreh
+#### Driver Odai.
+
 
 ### Links and resources
 https://github.com/LTUC/amman-201d20/tree/main/class-02/demo
