@@ -40,21 +40,26 @@ function favouriteMeal(){
  }
  favouriteSport();
 
+
+ function ifTravelToMalta(){
+      let travelledToMalta = prompt('Do you think I have travelled to Malta?')
+
+      if (travelledToMalta.toLowerCase() == 'yes' || travelledToMalta.toLowerCase() == 'y'){
+      //    console.log('I did!, Malta is beautiful.');
+            alert("I did!, Malta is beautiful.")
+            score++;
+      }else if (travelledToMalta.toLowerCase() == 'no' || travelledToMalta.toLowerCase() == 'n'){
+      //    console.log('Worng, I tavelled to Malta in 2019 and it was amazing!');
+            alert('Worng, I tavelled to Malta in 2019 and it was amazing!')
+      }else{
+      //    console.log('please type yes or no');
+            alert('please type yes or no')
+      }return score;
+ }
+ ifTravelToMalta();
+
+
  
-let travelledToMalta = prompt('Do you think I have travelled to Malta?')
-
-if (travelledToMalta.toLowerCase() == 'yes' || travelledToMalta.toLowerCase() == 'y'){
-//    console.log('I did!, Malta is beautiful.');
-      alert("I did!, Malta is beautiful.")
-      score++;
-}else if (travelledToMalta.toLowerCase() == 'no' || travelledToMalta.toLowerCase() == 'n'){
-//    console.log('Worng, I tavelled to Malta in 2019 and it was amazing!');
-      alert('Worng, I tavelled to Malta in 2019 and it was amazing!')
-}else{
-//    console.log('please type yes or no');
-      alert('please type yes or no')
-}
-
 let sister = prompt('Do you think I have a sister?')
 
 if (sister.toLowerCase() == 'yes' || sister.toLowerCase() == 'y'){
