@@ -98,22 +98,30 @@ ifVideoGames();
 
 
 
+//questuion 6
+function numberOfCountryVisited(){
+      for (let i = 0; i < 4; i++){
+            let countriesTravelled = prompt('How many countries do you think I have visited?')
+            if (countriesTravelled == 16){
+                  alert('Correct!!!!')
+                  score++;
+                  break
+            }else if(countriesTravelled < 16){
+                  alert('Too Low')
+            }else if(countriesTravelled > 16) {
+                  alert('Too high')
+            }else{
+                  alert('Please pick a number')
+                  }   
+            }
 
-for (let i = 0; i < 4; i++){
-      let countriesTravelled = prompt('How many countries do you think I have visited?')
-      if (countriesTravelled == 16){
-            alert('Correct!!!!')
-            score++;
-            break
-      }else if(countriesTravelled < 16){
-            alert('Too Low')
-      }else if(countriesTravelled > 16) {
-            alert('Too high')
-      }else{
-            alert('Please pick a number')
-            }   
-      }
-alert('The answer is 16 :)')
+      alert('The answer is 16 :)')
+      return score;
+}
+numberOfCountryVisited();
+
+
+
 
 let JordanianDishsIHate = ['maftool', 'foul', 'shushbarak']  
 for (let i = 0; i < 6; i++){
