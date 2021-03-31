@@ -102,7 +102,7 @@ for (let i = 0; i < 6; i++){
       }else{
             alert('Try again');}     
 }
-alert('Dishes I dont like are Maftool, Fool and Shushbarak')  
+alert('Dishes I dont like are Maftool, Foul and Shushbarak')  
 
 alert(`You got ${score} out of 7`);
 alert('This was fun ' + name + ' ,See you next time! Goodbye!');
