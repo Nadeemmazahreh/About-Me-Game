@@ -20,21 +20,27 @@ function favouriteMeal(){
    } return score;
 }
  favouriteMeal();
-  
-let favouriteSport = prompt('Do you think my favourite sport is Football?')
-    
-if (favouriteSport.toLowerCase() == 'yes' || favouriteSport.toLowerCase() == 'y'){
-//    console.log('No, Vollyball is my favourite sport!');
-      alert("No, Vollyball is my favourite sport!")
-}else if (favouriteSport.toLowerCase() == 'no' || favouriteSport.toLowerCase() == 'n'){
-//    console.log('Correct!, Volleyball was my favourite sport in collage');
-      alert("Correct!, Volleyball was my favourite sport in collage")
-      score++;
-}else{
-//    console.log('please type yes or no');
-      alert("please type yes or no")
-}
 
+
+ // question 2
+ function favouriteSport(){ 
+      let favouriteSport = prompt('Do you think my favourite sport is Football?')
+      
+      if (favouriteSport.toLowerCase() == 'yes' || favouriteSport.toLowerCase() == 'y'){
+      //    console.log('No, Vollyball is my favourite sport!');
+            alert("No, Vollyball is my favourite sport!")
+      }else if (favouriteSport.toLowerCase() == 'no' || favouriteSport.toLowerCase() == 'n'){
+      //    console.log('Correct!, Volleyball was my favourite sport in collage');
+            alert("Correct!, Volleyball was my favourite sport in collage")
+            score++;
+      }else{
+      //    console.log('please type yes or no');
+            alert("please type yes or no")
+      } return score;
+ }
+ favouriteSport();
+
+ 
 let travelledToMalta = prompt('Do you think I have travelled to Malta?')
 
 if (travelledToMalta.toLowerCase() == 'yes' || travelledToMalta.toLowerCase() == 'y'){
